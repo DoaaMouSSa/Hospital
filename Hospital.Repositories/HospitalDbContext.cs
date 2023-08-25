@@ -6,9 +6,9 @@ using System.Text;
 
 namespace Hospital.Repositories
 {
-    class ApplicationDbContext:IdentityDbContext
+    public class HospitalDbContext:IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
+        public HospitalDbContext(DbContextOptions<HospitalDbContext> options):base(options)
         {
 
         }

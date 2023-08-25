@@ -13,4 +13,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Hospital.Libraries\Hospital.Libraries.csproj" />
+    <ProjectReference Include="..\Hospital.Models\Hospital.Models.csproj" />
+  </ItemGroup>
+
 </Project>
